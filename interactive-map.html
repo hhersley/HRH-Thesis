@@ -58,4 +58,30 @@
     </div>
   </div>
 </div>
+  $(document).ready(function() {
+  var city, map;
+  map = $('.ct-map');
+  city = map.find('.ct-city');
+  city.each(function() {
+    var button, that;
+    that = $(this);
+    button = that.find('.ct-city__button');
+    return button.on('click', function() {
+      city.not(that).removeClass('active');
+      if (that.hasClass('active')) {
+        that.removeClass('active');
+        return map.removeClass('popup-open');
+      } else {
+        that.addClass('active');
+        return map.addClass('popup-open');
+      }
+    });
+  });
+});
   
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="interactive-map.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="interactive-map.js"></script>
