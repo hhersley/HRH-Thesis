@@ -21,13 +21,13 @@
           <a class="nav-link active" aria-current="page" href="https://hrh-thesis.hahersley.oucreate.com/">Home</a>
         </li>
             <li class="nav-item">
-          <a class="nav-link" href="https://hrh-thesis.hahersley.oucreate.com/">Global Average</a>
+          <a class="nav-link" href="https://hrh-thesis.hahersley.oucreate.com/Global.php">Global Average</a>
         </li>
             <li class="nav-item">
-          <a class="nav-link" href="https://hrh-thesis.hahersley.oucreate.com/">Paper</a>
+          <a class="nav-link" href="https://hrh-thesis.hahersley.oucreate.com/Paper.php">Paper</a>
         </li>
             <li class="nav-item">
-          <a class="nav-link" href="https://hrh-thesis.hahersley.oucreate.com/">Citations</a>
+          <a class="nav-link" href="https://hrh-thesis.hahersley.oucreate.com/Citations.php">Citations</a>
 
         
        
